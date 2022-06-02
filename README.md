@@ -80,7 +80,7 @@ Implementamos as páginas, para que você possa ver nossa ferramenta em ação.
 ```
 
 
-### 🛠 Tecnologias
+## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
