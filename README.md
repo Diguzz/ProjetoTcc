@@ -1,4 +1,8 @@
 
+<p align="center">
+  <img src="https://www.unicarioca.edu.br/sites/all/themes/unicarioca/imgs/logo-unicarioca.png" alt="unicarioca-logo"/>
+</p>
+
 <h1 align="center">
   TRABALHO DE CONCLUSÃO DE CURSO EM CIÊNCIA DA COMPUTAÇÃO
 </h1>
