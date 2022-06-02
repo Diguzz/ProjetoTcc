@@ -2,16 +2,16 @@
 <p align="center">
   <img src="https://www.unicarioca.edu.br/sites/all/themes/unicarioca/imgs/logo-unicarioca.png" alt="unicarioca-logo"/>
 </p>
-<h3 align="center">
+<h4 align="center">
   Centro Universitário Carioca - UniCarioca
+</h4>
+<h3 align="center">
+  TRABALHO DE CONCLUSÃO DE CURSO EM CIÊNCIA DA COMPUTAÇÃO
 </h3>
 <h2 align="center">
-  TRABALHO DE CONCLUSÃO DE CURSO EM CIÊNCIA DA COMPUTAÇÃO
-</h2>
-<h1 align="center">
   OTIMIZAÇÃO DO GERENCIAMENTO DO TRABALHO DE CONCLUSÃO DO CURSO UTILIZANDO SCRUM
 
-</h1>
+</h2>
 
 #
 #
