@@ -1,10 +1,4 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="javascript-badge"/>
-  <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="amazon-badge"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react-badge"/>
-</p>
-
-<p align="center">
   <img src="https://www.unicarioca.edu.br/sites/all/themes/unicarioca/imgs/logo-unicarioca.png" alt="unicarioca-logo"/>
 </p>
 
