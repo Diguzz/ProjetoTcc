@@ -74,7 +74,7 @@ Login teste
 Implementamos as páginas, para que você possa ver nossa ferramenta em ação.
 
 - Login
-- DashBoard Orientador
+- Dashboard Orientador
 - Painel Scrum
  
  ```
