@@ -47,17 +47,31 @@ Executar o aplicativo via web.
 
 Abra [http://177.23.140.3/](http://177.23.140.3/) para visualizá-lo em seu navegador.
 
+## Acesso
+
+Login teste
+
+| Orientador| 
+| ------ | 
+| Login: 2000999999| 
+| Senha: 123| 
+
+| Aluno| 
+| ------ | 
+| Login: 2016202295| 
+| Senha: 123| 
+
 
 # Características
 
-- Aplicação de ASPX NET
-- Banco de Dados
+- Aplicação em ASP.NET
+- Banco de Dados SQLite
 - Estilos CSS em JS
 - Layout elegante, limpo e responsivo
 
 ## Páginas
 
-Implementamos as páginas, para que você possa ver nosso dashboard em ação.
+Implementamos as páginas, para que você possa ver nossa ferramenta em ação.
 
 - Login
 - DashBoard Orientador
@@ -69,11 +83,13 @@ Implementamos as páginas, para que você possa ver nosso dashboard em ação.
 ├── PainelScrum.aspx
 ```
 
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [JavaScript](https://www.javascript.com/)
-- [ASPX NET](https://docs.microsoft.com/pt-br/aspnet/core/?view=aspnetcore-6.0)
+- [ASP.NET](https://docs.microsoft.com/pt-br/aspnet/core/?view=aspnetcore-6.0)
+- [SQLite](https://www.sqlite.org/index.html)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
