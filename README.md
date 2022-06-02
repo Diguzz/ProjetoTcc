@@ -66,7 +66,7 @@ Login teste
 
 - Aplicação em ASP.NET
 - Banco de Dados SQLite
-- Estilos CSS em JS
+- Estilos CSS e JS
 - Layout elegante, limpo e responsivo
 
 ## Páginas
