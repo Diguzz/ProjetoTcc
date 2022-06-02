@@ -13,8 +13,7 @@
 
 </h2>
 
-#
-#
+
 | Alunos | 
 | ------ | 
 | Izabella da Silva Assad | 
