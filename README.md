@@ -35,9 +35,23 @@ $ cd ProjetoTcc
 
 ## Scripts Disponíveis
 
-No diretório do projeto, você pode executar:
+Se faz necessário realizar a instalação das aplicações/frameworks abaixo:
 
-### ``
+* Visual Studio
+
+    - **[Visual Studio](https://visualstudio.microsoft.com/downloads/?WT.mc_id=javascript-0000-gllemos)**
+    - **[.NET Core 2.x](https://dotnet.microsoft.com/download?WT.mc_id=javascript-0000-gllemos)**
+
+- Parte 1: Abra o projeto no Visual Studio;
+![image](https://user-images.githubusercontent.com/38330587/172211235-5bc98f19-e9ca-4b14-b968-3387cd2b9715.png)
+
+- Parte 2: Inicialize o projeto;
+![image](https://user-images.githubusercontent.com/38330587/172211498-0c56e3e2-33e5-48c2-ae0c-edf10f013854.png)
+
+- Parte 3: Navegue pela Aplicação;
+![image](https://user-images.githubusercontent.com/38330587/172211858-050ddf9d-8a21-48ae-84c9-db9dc07f6696.png)
+
+
 
 Executar o aplicativo via web.
 
