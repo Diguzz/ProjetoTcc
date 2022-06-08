@@ -209,7 +209,7 @@
                                                                 <asp:LinkButton ID="lkbArquivo" CommandName="baixar" CommandArgument='<%# Eval("ID_ANEXO") %>' Text='<%# Eval("NM_ARQUIVO") %>' runat="server" /></td>
 
                                                             <td>
-                                                                <asp:Label ID="lblData" Text='<%# Eval("DT_CRIACAO") %>' runat="server" /></td>
+                                                                <asp:Label ID="lblData" Text='<%# Eval("DT_CRIACAO", "{0:dd/MM/yyyy}") %>' runat="server" /></td>
                                                             <td style="text-align: center">
                                                                 <asp:LinkButton ID="lkbLiexeira" CommandName="apagar" CommandArgument='<%# Eval("ID_ANEXO") %>' CssClass="fa-solid fa-trash-can" OnClientClick="return confirm('Tem certeza que deseja excluir o anexo?');" runat="server" /></td>
                                                         </tr>

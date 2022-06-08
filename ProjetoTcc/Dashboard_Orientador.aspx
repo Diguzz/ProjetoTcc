@@ -16,7 +16,7 @@
                             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                 <thead>
                                     <tr>
-                                        <th>Tema</th>
+                                        <th>TCC</th>
                                         <th>Data Apresentação</th>
                                         <th>Status</th>
                                         <th></th>

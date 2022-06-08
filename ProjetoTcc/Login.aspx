@@ -33,17 +33,19 @@
                                             <h1 class="h4 text-gray-900 mb-4">Bem-vindos de volta!</h1>
                                         </div>
                                         <div class="form-group">
-                                            <asp:TextBox ID="nm_user" CssClass="form-control form-control-user" placeholder="Matrícula" runat="server" />                                            
+                                            <asp:TextBox ID="nm_user" CssClass="form-control form-control-user" placeholder="Matrícula" runat="server" />
                                         </div>
                                         <div class="form-group">
-                                            <asp:TextBox ID="nm_pass" CssClass="form-control form-control-user" TextMode="Password" placeholder="Senha" runat="server" />                                            
+                                            <asp:TextBox ID="nm_pass" CssClass="form-control form-control-user" TextMode="Password" placeholder="Senha" runat="server" />
                                         </div>
                                         <div>
                                             <asp:Button ID="btn_entrar" CssClass="btn btn-primary btn-user btn-block" Text="Entrar" runat="server" OnClick="btn_entrar_Click" />
                                         </div>
-                                        <%--<div class="text-center">
-                                            <a class="small" href="EsqueceuSenha.aspx">Esqueceu a senha?</a>
-                                        </div>--%>
+                                        <div style="padding-top:20px" class="text-center">
+                                            <a style="color:black" class="nav-link" target="_blank" href="https://github.com/Diguzz/ProjetoTcc">
+                                                <i class="fa-brands fa-2x fa-github"></i>
+                                                <span></span></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
