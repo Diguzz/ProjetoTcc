@@ -116,6 +116,7 @@ namespace ProjetoTcc
             div_body_orientador.Visible = false;
             div_header_orientador.Visible = false;
             Application["card"] = "novo";
+            
 
 
             ScriptManager.RegisterStartupScript(Page, Page.GetType(), "modal", "abreModal();", true);
@@ -204,6 +205,7 @@ namespace ProjetoTcc
             {
                 Limpar();
                 div_anexo.Visible = true;
+                div_exclui_cartao.Visible = true;
 
                 Int32 id_card = Convert.ToInt32(e.CommandArgument);
 

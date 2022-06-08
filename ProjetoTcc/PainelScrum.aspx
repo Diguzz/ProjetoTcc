@@ -154,7 +154,9 @@
                                                             <td>
                                                                 <asp:Label ID="lblData" Text='<%# Eval("DT_CRIACAO", "{0:dd/MM/yyyy}") %>' runat="server" /></td>
                                                             <td style="text-align: center">
-                                                                <asp:LinkButton ID="lkbLiexeira" CommandName="apagar" CommandArgument='<%# Eval("ID_ANEXO") %>' CssClass="fa-solid fa-trash-can" runat="server" OnClientClick="return confirm('Tem certeza que deseja excluir o anexo?');" /></td>
+                                                                <asp:LinkButton ID="lkbLiexeira" CommandName="apagar" CommandArgument='<%# Eval("ID_ANEXO") %>' CssClass="fa-solid fa-trash-can" runat="server" OnClientClick="return confirm('Tem certeza que deseja excluir o anexo?');" />
+                                                            </td>
+
                                                         </tr>
                                                     </ItemTemplate>
                                                     <FooterTemplate>
@@ -251,7 +253,9 @@
                         <div class="modal-footer modalF mg-t-20">
                             <div class="row">
                                 <div class="col-9">
-                                    <asp:Button Width="20%" class="btn btn-danger btn-user" runat="server" ID="btnExcluir" OnClientClick="return confirm('Tem certeza que deseja excluir o cartão?');" Text="Excluir Cartão" OnClick="btnExcluir_Click"></asp:Button>
+                                    <div id="div_exclui_cartao" runat="server" visible="false">
+                                        <asp:Button Width="20%" class="btn btn-danger btn-user" runat="server" ID="btnExcluir" OnClientClick="return confirm('Tem certeza que deseja excluir o cartão?');" Text="Excluir Cartão" OnClick="btnExcluir_Click"></asp:Button>
+                                    </div>
                                     <label id="lblCard" runat="server" style="color: white"></label>
                                 </div>
                                 <div class="col-1">
@@ -277,8 +281,7 @@
         </Triggers>
     </asp:UpdatePanel>
     <style>
-
-        .btnSave{
+        .btnSave {
             width: 100%;
         }
 
@@ -292,7 +295,7 @@
             font-weight: bold;
         }
 
-        .modalF{
+        .modalF {
             display: block !important;
         }
 
