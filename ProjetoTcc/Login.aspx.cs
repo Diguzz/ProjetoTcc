@@ -14,11 +14,11 @@ namespace ProjetoTcc
 
         }
         protected void btn_entrar_Click(object sender, EventArgs e)
-        {
+        {            
             try
             {
                 if (nm_user.Text != "" && nm_pass.Text != "")
-                {
+                {                    
                     Tuple<ProjetoTccModel.LOGIN, bool> tup = ProjetoTccBusiness.Login.validaLogin(nm_user.Text, nm_pass.Text);
                     if (tup.Item2)
                     {
@@ -48,9 +48,10 @@ namespace ProjetoTcc
                     ProjetoTccBusiness.Utilidades.Alert("Por favor, inserir matrícula e senha válida.");
                 }
             }
-            catch
+            catch (Exception ex)
             {
-                
+                ProjetoTccBusiness.Logs.insere_erro(ex.Message);
+                ProjetoTccBusiness.Utilidades.Alert("Falha na autenticação, tente novamente.");
             }
         }
     }

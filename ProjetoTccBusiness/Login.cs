@@ -31,8 +31,8 @@ namespace ProjetoTccBusiness
             }
             catch (Exception ex)
             {
-                String ms = ex.Message;
-                return new Tuple<ProjetoTccModel.LOGIN, bool>(new ProjetoTccModel.LOGIN(),false);
+                throw ex;
+                //return new Tuple<ProjetoTccModel.LOGIN, bool>(new ProjetoTccModel.LOGIN(),false);
             }
 
         }
